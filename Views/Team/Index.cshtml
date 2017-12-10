@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<Assignment2.Models.HockeyModel>
+
+<h2>View our list of Teams</h2>
+
+<ul>
+   @foreach (var t in Model)
+   {
+       <li>@Html.ActionLink(t.Name, "Browse", "Team", new { Table_HockeyTeams = t.Name }, null)</li>
+   }
+</ul>
