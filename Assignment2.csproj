@@ -217,6 +217,13 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Auston-Matthews-contracts.jpg" />
+    <Content Include="Content\Images\boston_bruins.gif" />
+    <Content Include="Content\Images\Pittsburgh_Penguins8[1].jpg" />
+    <Content Include="Content\Images\rink1.jpg" />
+    <Content Include="Content\Images\sidney-crosby-pittsburgh-penguins-first-person.jpg" />
+    <Content Include="Content\Images\Toronto_Maple_Leafs2.jpg" />
+    <Content Include="Content\Images\Zdeno_Chara_-_Boston_Bruins_2016.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -280,7 +287,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
