@@ -37,7 +37,11 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Team", "Index", "Team")</li>
-                    <li>@Html.ActionLink("Player", "Index", "Player")</li>
+                    @*/* Allow only authenticated users to see the team manager */*@
+                    @if (Context.User.Identity.IsAuthenticated)
+                        {
+                        <li>@Html.ActionLink("TeamManager", "Index", "Team")</li>
+                    }
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

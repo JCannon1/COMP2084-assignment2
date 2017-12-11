@@ -294,6 +294,17 @@
     <Content Include="Views\Team\Edit.cshtml" />
     <Content Include="Views\Team\Delete.cshtml" />
     <Content Include="Views\Team\Details.cshtml" />
+    <Content Include="Views\HockeyPlayers\Details.cshtml" />
+    <Content Include="Views\HockeyPlayers\Create.cshtml" />
+    <Content Include="Views\HockeyPlayers\Delete.cshtml" />
+    <Content Include="Views\HockeyPlayers\Edit.cshtml" />
+    <Content Include="Views\HockeyPlayers\Index.cshtml" />
+    <Content Include="Views\TeamManager\Browse.cshtml" />
+    <Content Include="Views\TeamManager\Create.cshtml" />
+    <Content Include="Views\TeamManager\Delete.cshtml" />
+    <Content Include="Views\TeamManager\Details.cshtml" />
+    <Content Include="Views\TeamManager\Edit.cshtml" />
+    <Content Include="Views\TeamManager\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

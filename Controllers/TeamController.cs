@@ -9,11 +9,11 @@ namespace Assignment2.Controllers
 {
 
     // Allowing only those with accounts to have access 
-    [Authorize]
+    //[Authorize]
     public class TeamController : Controller
     {
         // db connection 
-        HockeyModel db = new HockeyModel();
+        HockeyModel db = new HockeyModel(); 
 
         // GET: Team
         public ActionResult Index()
