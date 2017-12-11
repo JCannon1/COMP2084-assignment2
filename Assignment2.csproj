@@ -199,6 +199,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HockeyTeamsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TeamController.cs" />
@@ -284,6 +285,11 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Team\Index.cshtml" />
     <Content Include="Views\Team\Browse.cshtml" />
+    <Content Include="Views\HockeyTeams\Create.cshtml" />
+    <Content Include="Views\HockeyTeams\Delete.cshtml" />
+    <Content Include="Views\HockeyTeams\Details.cshtml" />
+    <Content Include="Views\HockeyTeams\Edit.cshtml" />
+    <Content Include="Views\HockeyTeams\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

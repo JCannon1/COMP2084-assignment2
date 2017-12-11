@@ -2,13 +2,57 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@model IEnumerable<Assignment2.Models.HockeyModel>
+@model IEnumerable<Assignment2.Models.Table_HockeyTeams>
 
-<h2>View our list of Teams</h2>
+<div class="textBackground">
+    <h2>View our list of Teams</h2>
 
-<ul>
-   @foreach (var t in Model)
-   {
-       <li>@Html.ActionLink(t.Name, "Browse", "Team", new { Table_HockeyTeams = t.Name }, null)</li>
-   }
-</ul>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.teamName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.teamCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.teamStanding)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.teamName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.teamCity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.teamStanding)
+                </td>
+                @*<td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.teamId }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.teamId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.teamId })
+                    </td>*@
+            </tr>
+        }
+
+    </table>
+ </div>
+
+
+
+
+
+
+
+
+

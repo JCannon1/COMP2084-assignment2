@@ -6,6 +6,7 @@ namespace Assignment2.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
+    [Table("Table_HockeyPlayers")]
     public partial class Table_HockeyPlayers
     {
         [Key]

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Assignment2.Models.Table_HockeyTeams>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.teamCity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.teamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.teamStanding)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.teamCity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.teamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.teamStanding)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.teamId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.teamId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.teamId })
+        </td>
+    </tr>
+}
+
+</table>

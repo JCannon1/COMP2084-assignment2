@@ -6,8 +6,11 @@ namespace Assignment2.Models
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
+
+    [Table("Table_HockeyTeams")]
     public partial class Table_HockeyTeams
     {
+
         [Key]
         [StringLength(10)]
         public string teamId { get; set; }
