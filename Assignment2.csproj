@@ -290,6 +290,10 @@
     <Content Include="Views\HockeyTeams\Details.cshtml" />
     <Content Include="Views\HockeyTeams\Edit.cshtml" />
     <Content Include="Views\HockeyTeams\Index.cshtml" />
+    <Content Include="Views\Team\Create.cshtml" />
+    <Content Include="Views\Team\Edit.cshtml" />
+    <Content Include="Views\Team\Delete.cshtml" />
+    <Content Include="Views\Team\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

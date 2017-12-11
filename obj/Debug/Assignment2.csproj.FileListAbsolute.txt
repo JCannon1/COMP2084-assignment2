@@ -161,3 +161,4 @@ C:\Users\Jesse Cannon\Desktop\Assignment2\Assignment2\bin\Microsoft.Owin.Securit
 C:\Users\Jesse Cannon\Desktop\Assignment2\Assignment2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Jesse Cannon\Desktop\Assignment2\Assignment2\obj\Debug\Assignment2.dll
 C:\Users\Jesse Cannon\Desktop\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+C:\Users\Jesse Cannon\Desktop\Assignment2\Assignment2\obj\Debug\Assignment2.csprojResolveAssemblyReference.cache
