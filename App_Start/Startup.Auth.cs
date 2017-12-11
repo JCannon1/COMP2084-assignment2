@@ -52,6 +52,7 @@ namespace Assignment2
                clientId: ConfigurationManager.AppSettings["MicrosoftClientId"],
                clientSecret: ConfigurationManager.AppSettings["MicrosoftClientSecret"]);
 
+            // Bonus Twitter Authentication 
             app.UseTwitterAuthentication(
                consumerKey: ConfigurationManager.AppSettings["TwitterConsumerKey"],
                consumerSecret: ConfigurationManager.AppSettings["TwitterConsumerSecret"]);
